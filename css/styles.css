@@ -160,26 +160,31 @@ header .logo-accent {
   display: inline;
 }
 
-header {
-  padding: 24px;
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-header,
-nav {
+.header-section,
+.header-nav-panel {
   display: flex;
 }
 
-header .container {
+.header-nav-panel {
+  align-items: center;
+}
+
+.header-section .container {
   display: flex;
   flex-basis: 100%;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
-.container nav > a {
+.container .header-nav-panel > a {
   margin-right: 76px;
 }
 
-.container nav li:not(:last-child),
+.container .header-nav-panel li:not(:last-child),
 .container address li:not(:last-child) {
   margin-right: 40px;
 }
