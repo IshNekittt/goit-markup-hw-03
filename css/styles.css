@@ -61,6 +61,7 @@ header .logo-accent {
 
 .address-list {
   display: flex;
+  padding: 24px 0;
 }
 
 .address-item {
