@@ -81,6 +81,7 @@ header .logo-accent {
 .solutions-section {
   background-color: #2e2f42;
   text-transform: capitalize;
+  padding: 188px 0;
 }
 
 .solutions-section-header {
@@ -90,6 +91,7 @@ header .logo-accent {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .solutions-section-button {
@@ -100,6 +102,12 @@ header .logo-accent {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .solutions-section-button:hover,
