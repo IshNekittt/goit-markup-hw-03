@@ -113,7 +113,6 @@ header .logo-accent {
 .solutions-section-button:hover,
 .solutions-section-button:focus {
   background: #404bbf;
-  cursor: pointer;
 }
 
 .section-header {
