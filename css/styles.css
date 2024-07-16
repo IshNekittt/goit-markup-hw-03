@@ -38,8 +38,19 @@ ul {
   color: #4d5ae5;
 }
 
+.header-section .container {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
 .header-section .logo-accent {
   color: #2e2f42;
+}
+
+.header-nav-panel {
+  align-items: center;
 }
 
 .header-nav-panel .logo {
@@ -71,7 +82,6 @@ ul {
 
 .address-list {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 
@@ -186,20 +196,9 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-section .container {
-  display: flex;
-  flex-basis: 100%;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-
 .header-section,
 .header-nav-panel {
   display: flex;
-}
-
-.header-nav-panel {
-  align-items: center;
 }
 
 .container address li:not(:last-child) {
