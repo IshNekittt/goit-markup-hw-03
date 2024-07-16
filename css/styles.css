@@ -133,7 +133,6 @@ header .logo-accent {
 }
 
 .card-header {
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -142,13 +141,20 @@ header .logo-accent {
   margin-bottom: 8px;
 }
 
-.card-description {
+.team-section .card-header {
   text-align: center;
+}
+
+.card-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.team-section .card-description {
+  text-align: center;
 }
 
 .card-background {
@@ -258,4 +264,29 @@ header .logo-accent {
 .team-section-list {
   display: flex;
   gap: 24px;
+}
+
+.portfolio-section {
+  padding: 120px 0;
+}
+
+.portfolio-section-header {
+  margin-bottom: 72px;
+}
+
+.portfolio-section-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-section-list-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-section-card-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
