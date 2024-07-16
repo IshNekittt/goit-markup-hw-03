@@ -117,7 +117,7 @@ header .logo-accent {
   background: #404bbf;
 }
 
-.section-header {
+.portfolio-section {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -208,4 +208,22 @@ header .logo-accent {
 .container .header-nav-panel li:not(:last-child),
 .container address li:not(:last-child) {
   margin-right: 40px;
+}
+
+.advantages-section {
+  padding: 120px 0;
+}
+
+.advantages-section-header {
+  visibility: hidden;
+  margin-bottom: 8px;
+}
+
+.advantages-section-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-section-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
