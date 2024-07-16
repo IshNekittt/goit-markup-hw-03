@@ -38,8 +38,17 @@ ul {
   color: #4d5ae5;
 }
 
-header .logo-accent {
+.header-section .logo-accent {
   color: #2e2f42;
+}
+
+.header-nav-panel .logo {
+  margin-right: 76px;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 40px;
 }
 
 .navigation-list-item {
@@ -63,9 +72,10 @@ header .logo-accent {
 .address-list {
   display: flex;
   padding: 24px 0;
+  gap: 40px;
 }
 
-.address-item {
+.address-list-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -73,8 +83,8 @@ header .logo-accent {
   color: #434455;
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-list-item:hover,
+.address-list-item:focus {
   color: #404bbf;
 }
 
@@ -164,7 +174,7 @@ header .logo-accent {
 
 .container {
   max-width: 1158px;
-  padding: 0 156px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -192,15 +202,6 @@ header .logo-accent {
   align-items: center;
 }
 
-.menu {
-  display: flex;
-}
-
-.container .header-nav-panel > a {
-  margin-right: 76px;
-}
-
-.container .header-nav-panel li:not(:last-child),
 .container address li:not(:last-child) {
   margin-right: 40px;
 }
