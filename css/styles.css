@@ -214,9 +214,8 @@ header .logo-accent {
   padding: 120px 0;
 }
 
-.advantages-section-header {
+.visually-hidden {
   visibility: hidden;
-  margin-bottom: 8px;
 }
 
 .advantages-section-list {
@@ -226,4 +225,8 @@ header .logo-accent {
 
 .advantages-section-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.advantages-section-list-item .card-header {
+  margin-bottom: 8px;
 }
