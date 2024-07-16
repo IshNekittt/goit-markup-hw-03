@@ -117,7 +117,7 @@ header .logo-accent {
   background: #404bbf;
 }
 
-.portfolio-section {
+.section-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -127,15 +127,22 @@ header .logo-accent {
   color: #2e2f42;
 }
 
+.card-info {
+  padding: 32px 0;
+}
+
 .card-header {
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .card-description {
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -145,10 +152,8 @@ header .logo-accent {
 
 .card-background {
   background-color: #fff;
-}
-
-.team-section {
-  background: #f4f4fd;
+  border-radius: 0 0 4px 4px;
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 
 .footer-section {
@@ -238,4 +243,18 @@ header .logo-accent {
 
 .advantages-section-list-item .card-header {
   margin-bottom: 8px;
+}
+
+.team-section {
+  background: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-section-header {
+  margin-bottom: 72px;
+}
+
+.team-section-list {
+  display: flex;
+  gap: 24px;
 }
