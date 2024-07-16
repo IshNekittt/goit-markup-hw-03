@@ -36,7 +36,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0;
 }
 
 header .logo-accent {
@@ -163,22 +162,6 @@ header .logo-accent {
   border-radius: 0 0 4px 4px;
 }
 
-.footer-section {
-  background: #2e2f42;
-}
-
-.footer-section .logo-accent {
-  color: #f4f4fd;
-}
-
-.footer-section-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
 .container {
   max-width: 1158px;
   padding: 0 156px;
@@ -289,4 +272,27 @@ header .logo-accent {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.footer-section {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-section .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-section .logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-section-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
 }
